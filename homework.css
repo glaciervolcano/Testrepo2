@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#container{
+    height:400px;
+    width:600px;
+    border:auto;
+    background-color: #e6d168;
+    align-items: center;
+
+}
+#countLabel{
+    display:block;
+    text-align:center;
+    font-size: 80px;
+    border: auto;
+    margin-top: 50px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button{
+    height:50px;
+    width:120px;
+    font-size: 30px;
+    margin-top: 100px;
+
+}
